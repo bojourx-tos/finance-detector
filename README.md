@@ -6,6 +6,23 @@
 
 Android application to detect credit/finance status on used phones before purchasing.
 
+## 📱 Screenshots
+
+<div align="center">
+
+### Main Interface
+<img src="screenshots/main-screen.jpg" width="300" alt="Finance Destroyer Main Screen">
+
+### Scanning Process  
+<img src="screenshots/scan-process.jpg" width="300" alt="Real-time Scanning">
+
+### Detection Results
+<img src="screenshots/scan-results.jpg" width="300" alt="Finance Apps Detected">
+
+</div>
+
+*Professional terminal-style interface with real-time threat detection*
+
 ## 🚀 Features
 
 - **📱 Finance App Detection** - Scan for installed credit applications
