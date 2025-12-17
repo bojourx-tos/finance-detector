@@ -26,7 +26,7 @@ Android application to detect credit/finance status on used phones before purcha
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/finance-detector.git
+git clone https://github.com/bojourx-tos/finance-detector.git
 cd finance-detector
 ```
 
@@ -135,7 +135,7 @@ For security concerns, please review our [Security Policy](SECURITY.md).
 
 If you encounter any issues or have questions:
 
-1. Check existing [Issues](https://github.com/yourusername/finance-detector/issues)
+1. Check existing [Issues](https://github.com/bojourx-tos/finance-detector/issue)
 2. Create a new issue with detailed information
 3. Follow the issue template for faster resolution
 
