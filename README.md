@@ -6,7 +6,7 @@ Professional Android app to detect finance/credit applications on used phones be
 
 | Main Interface | Scanning Process | Detection Results |
 |---|---|---|
-| ![Main Screen](https://github.com/bojourx-tos/finance-detector/raw/main/main-screen.jpg) | ![Scanning](https://github.com/bojourx-tos/finance-detector/raw/main/scan-process.jpg) | ![Results](https://github.com/bojourx-tos/finance-detector/raw/main/scan-results.jpg) |
+| ![Main Screen](https://github.com/bojourx-tos/finance-detector/raw/main/Screenshot_20251217-192206.jpg) | ![Scanning](https://github.com/bojourx-tos/finance-detector/raw/main/scan-process.jpg) | ![Results](https://github.com/bojourx-tos/finance-detector/raw/main/scan-results.jpg) |
 
 ## ✨ Key Features
 - 🎯 **Detects 12+ Finance Apps** - Akulaku, Kredivo, Home Credit, Indodana, Tunaiku, Kredit Pintar, Julo, AdaKami, BAF Finance, FIF Group, Adira Finance, OTO Finance
