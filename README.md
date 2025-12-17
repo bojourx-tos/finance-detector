@@ -1,161 +1,61 @@
-# HP Finance Detector
+🚀 **HP Finance Detector v1.0.0 - Initial Release**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com)
-[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
-
-Android application to detect credit/finance status on used phones before purchasing.
+Professional Android app to detect finance/credit applications on used phones before purchasing. Protect yourself from buying devices with hidden debt!
 
 ## 📱 Screenshots
 
-<div align="center">
+| Main Interface | Scanning Process | Detection Results |
+|---|---|---|
+| ![Main Screen](https://github.com/bojourx-tos/finance-detector/raw/main/main-screen.jpg) | ![Scanning](https://github.com/bojourx-tos/finance-detector/raw/main/scan-process.jpg) | ![Results](https://github.com/bojourx-tos/finance-detector/raw/main/scan-results.jpg) |
 
-### Main Interface
-<img src="screenshots/main-screen.jpg" width="300" alt="Finance Destroyer Main Screen">
+## ✨ Key Features
+- 🎯 **Detects 12+ Finance Apps** - Akulaku, Kredivo, Home Credit, Indodana, Tunaiku, Kredit Pintar, Julo, AdaKami, BAF Finance, FIF Group, Adira Finance, OTO Finance
+- ⚡ **Real-time Scanning** - Live progress with professional terminal-style interface
+- 📊 **Risk Assessment** - Intelligent 0-100 danger scoring system
+- 🎵 **Audio Alerts** - Sound notifications for different threat levels
+- 💀 **App Removal** - Uninstall detected finance apps (requires root access)
+- 📤 **Export Reports** - Share detailed scan results with others
 
-### Scanning Process  
-<img src="screenshots/scan-process.jpg" width="300" alt="Real-time Scanning">
+## 📥 Installation
+1. Download `hp-finance-detector-v1.0.0.apk` from attachments below
+2. Enable "Unknown Sources" in Android settings
+3. Install APK and grant required permissions
+4. Launch app and start protecting yourself!
 
-### Detection Results
-<img src="screenshots/scan-results.jpg" width="300" alt="Finance Apps Detected">
+## 📋 System Requirements
+- **Android:** 5.0+ (API Level 21)
+- **Storage:** 12MB free space
+- **Permissions:** USB, Package Query, Audio
+- **Optional:** Root access for advanced removal features
 
-</div>
+## 🛡️ What It Protects Against
+**Major Indonesian Finance Apps:**
+- **Akulaku** - Online lending platform
+- **Kredivo** - Buy now, pay later service  
+- **Home Credit** - Consumer finance company
+- **Indodana** - Digital lending platform
+- **Tunaiku** - Personal loan application
+- **Kredit Pintar** - Fast cash loan service
+- **Julo** - Digital lending solution
+- **AdaKami** - Personal finance app
+- **BAF Finance** - Motorcycle financing
+- **FIF Group** - Multi-finance company
+- **Adira Finance** - Consumer financing
+- **OTO Finance** - Vehicle financing
 
-*Professional terminal-style interface with real-time threat detection*
-
-## 🚀 Features
-
-- **📱 Finance App Detection** - Scan for installed credit applications
-- **🔍 IMEI Status Check** - Verify against blacklist databases  
-- **🔧 System Analysis** - Detect traces of monitoring applications
-- **🎵 Audio Feedback** - Sound alerts for detection results
-- **🗑️ App Removal** - Uninstall detected finance applications (requires root)
-
-## 📋 Requirements
-
-- Android 5.0 (API level 21) or higher
-- USB debugging enabled on target device
-- Root access (optional, for advanced features)
-
-## 🛠️ Installation
-
-### From Source
-
-1. Clone the repository:
-```bash
-git clone https://github.com/bojourx-tos/finance-detector.git
-cd finance-detector
-```
-
-2. Build the project:
-```bash
-./gradlew assembleDebug
-```
-
-3. Install the APK:
-```bash
-adb install app/build/outputs/apk/debug/app-debug.apk
-```
-
-### Quick Setup
-
-1. Enable USB debugging on target device
-2. Install APK on detector device
-3. Grant USB and application access permissions
-4. Connect devices and start scanning
-
-## 🎯 Usage
-
-1. **Connect Target Device**: Connect the phone to be scanned via USB with USB debugging enabled
-2. **Launch App**: Open HP Finance Detector on your detector device
-3. **Start Scan**: Press "MULAI SCAN" button
-4. **Review Results**: Check detection results and risk assessment
-
-## 📱 Detected Finance Applications
-
-- Akulaku
-- Kredivo
-- Home Credit  
-- Indodana
-- EasyCash
-- CashCash
-- And more...
-
-## 🏗️ Project Structure
-
-```
-app/src/main/java/com/hpdetector/finance/
-├── MainActivity.java          # Main application entry
-├── ScanActivity.java         # Scanning functionality
-├── SimpleDetector.java       # Core detection logic
-├── UninstallActivity.java    # App removal features
-├── UninstallManager.java     # Uninstall management
-├── RootUtils.java           # Root access utilities
-└── EnhancedSoundManager.java # Audio feedback system
-```
-
-## 🔧 Development
-
-### Building
-
-```bash
-# Debug build
-./gradlew assembleDebug
-
-# Release build
-./gradlew assembleRelease
-```
-
-### Testing
-
-```bash
-# Run unit tests
-./gradlew test
-
-# Run instrumented tests
-./gradlew connectedAndroidTest
-```
-
-## 🛣️ Roadmap
-
-- [ ] Remote lock app detection
-- [ ] Online IMEI blacklist database
-- [ ] File system trace scanning
-- [ ] Export scan reports
-- [ ] Batch scanning mode
-- [ ] Multi-language support
-- [ ] Cloud-based detection updates
+## ⚠️ Important Notice
+- **Educational Purpose** - Designed for consumer protection and security research
+- **Local Processing** - All scanning performed locally, no data transmitted to servers
+- **Responsible Use** - Only scan devices you own or have explicit permission to analyze
+- **Legal Compliance** - Ensure usage complies with local laws and regulations
 
 ## 🤝 Contributing
-
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## ⚠️ Disclaimer
-
-This application is intended for educational and consumer protection purposes only. Users are responsible for ensuring compliance with applicable laws and regulations in their jurisdiction. Use responsibly and ethically.
-
-## 🔒 Security
-
-For security concerns, please review our [Security Policy](SECURITY.md).
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. Check existing [Issues](https://github.com/bojourx-tos/finance-detector/issue)
-2. Create a new issue with detailed information
-3. Follow the issue template for faster resolution
+Found bugs? Want new features? Contributions welcome!
+- 🐛 **Report Issues** - Use GitHub Issues for bug reports
+- 💡 **Feature Requests** - Suggest new detection capabilities
+- 🔧 **Pull Requests** - Submit code improvements
+- 📖 **Documentation** - Help improve guides and docs
 
 ---
-
-**⭐ Star this repository if you find it helpful!**
+**⭐ Star this repository if it helps protect you from financial fraud!**
+**🛡️ Stay safe, verify before you buy! 🛡️**
