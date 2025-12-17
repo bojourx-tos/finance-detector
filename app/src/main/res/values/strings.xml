@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Detektor Finance</string>
+    <string name="scan_button">MULAI SCAN</string>
+    <string name="status_connecting">Menghubungkan ke HP target...</string>
+    <string name="status_scanning">Sedang melakukan scan...</string>
+    <string name="result_safe">✅ AMAN: HP ini tidak memiliki aplikasi finance</string>
+    <string name="result_danger">⚠️ BAHAYA: HP ini kemungkinan masih dalam kredit!</string>
+    <string name="recommendation_safe">Rekomendasi: AMAN UNTUK DIBELI</string>
+    <string name="recommendation_danger">Rekomendasi: JANGAN BELI!</string>
+</resources>
